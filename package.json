@@ -6,12 +6,25 @@
   "author": "okayu8 <hitugaya12@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "sass": "gulp sass"
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "server": "gulp"
   },
   "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "browser-sync": "^2.26.14",
+    "css-declaration-sorter": "^6.0.3",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
     "gulp-ejs": "^5.1.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "postcss": "^8.3.0"
   }
 }
