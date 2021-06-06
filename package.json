@@ -1,0 +1,17 @@
+{
+  "name": "gulp-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/okayu8/gulp-practice.git",
+  "author": "okayu8 <hitugaya12@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "gulp sass"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
